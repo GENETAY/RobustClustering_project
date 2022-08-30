@@ -40,6 +40,8 @@ if module_path not in sys.path:
 import RobustClustering
 ```
 
+Check out the numerous files in `RobustClustering_project/doc` and `RobustClustering_project/examples` to see how to use all functions and class and what they do.
+
 # Remark
 We edited existing codes or created our own programs to be able to give initial centers in the procedure. For example, trimmed-kmeans (https://rdrr.io/cran/lowmemtkmeans/man/tkmeans.html) or SMM don't have such arguments. It did matter to be able to compare performances of algorithms.
 
