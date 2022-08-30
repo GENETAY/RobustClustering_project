@@ -28,6 +28,9 @@ class KbMOM:
     """
     A class of robust cluster estimator named KbMOM in honor of its first name in the literature: K-bMOM.
     
+    related scientific article: https://www.sciencedirect.com/science/article/abs/pii/S0167947321002048?via%3Dihub
+    due to Genetay, Saumard and Saumard.
+    
     Remark
     ------
     The KbMOM method can theoretically perform parallel computation on the blocks but it is not implemented yet.
