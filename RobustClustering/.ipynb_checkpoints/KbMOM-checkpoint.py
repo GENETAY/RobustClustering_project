@@ -1,4 +1,4 @@
-# Date : 2022-08-25
+# Date : 2022-08-30
 
 # !/usr/bin/python
 # -*- coding: utf-8 -*-
@@ -8,10 +8,10 @@
 
 __author__ = "Saumard Adrien, Camille Saumard, Edouard GENETAY"
 __copyright__ = "Copyright 2022"
-__version__ = "8.5"
+__version__ = "1.0.1"
 __maintainer__ = "Edouard GENETAY"
 __email__  = "genetay.edouard@gmail.com"
-__status__ = "version beta"
+__status__ = "stable version"
 
 
 import numpy as np
