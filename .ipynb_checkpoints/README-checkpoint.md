@@ -40,16 +40,14 @@ if module_path not in sys.path:
 import RobustClustering
 ```
 
-Check out the numerous files in `RobustClustering_project/doc` and `RobustClustering_project/examples` to see how to use all functions and class and what they do.
+Check out the numerous files in `RobustClustering_project/doc` and `RobustClustering_project/examples` to see how to use all functions and classes and what they do.
 
 # Remark
-We edited existing codes or created our own programs to be able to give initial centers in the procedure. For example, trimmed-kmeans (https://rdrr.io/cran/lowmemtkmeans/man/tkmeans.html) or SMM don't have such arguments. It did matter to be able to compare performances of algorithms.
+We edited existing codes or created our own programs to be able to give initial centers in the procedures. For example, trimmed-kmeans (https://rdrr.io/cran/lowmemtkmeans/man/tkmeans.html) or SMM don't have such arguments. It did matter to be able to compare performances of algorithms.
 
 We recoded TClust because we did not find any python package to do it when we started our work in 2019. Thing may have change by now.
 
+You fill also find in `RobustClustering_project/RobustClustering/utils.py` a lot of auxiliary functions or metrics that can help you to compare the method. We can mention RMSE (or a more resilient version RMSE_ot), accuracy but also the functions that generate datasets like those related to the KbMOM or TClust  articles.
+
 # Further info
-These files were the programs used to do the experiments of the article about K-bMOM, submitted by Adrien SAUMARD, Camille SAUMARD and Edoaurd GENETAY in 2020 in a journal.
-- Preprint here: https://arxiv.org/abs/2002.03899
-- Submitted to JASA on august 2020, rejected after review in november 2020
-- Submitted to CSDA on december 2020
-- accepted at CSDA on february 2021
+These files were the programs used to do the experiments of the article about K-bMOM, submitted by Adrien SAUMARD, Camille SAUMARD and Edoaurd GENETAY in 2020 in a journal, see the final published article in `RobustClustering_project/doc`.
