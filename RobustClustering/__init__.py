@@ -1,3 +1,5 @@
+__version__ = "1.0.1"
+
 from .KbMOM import KbMOM
 
 from .kmedianpp import kmedianpp_init
