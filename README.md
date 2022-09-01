@@ -26,6 +26,8 @@ Third, the previous step has created a file named "dist" inside the folder, now 
 
 # how to use it
 
+Check out the numerous files in `RobustClustering_project/doc` and `RobustClustering_project/examples` to see how to use all functions and classes and what they do.
+
 ## method 1
 If you installed the package as described above: python is now able to import it with "import Robustclustering"
 
@@ -43,8 +45,6 @@ if module_path not in sys.path:
    
 import RobustClustering
 ```
-
-Check out the numerous files in `RobustClustering_project/doc` and `RobustClustering_project/examples` to see how to use all functions and classes and what they do.
 
 ## encountered issues and their solutions
 
