@@ -68,6 +68,6 @@ To cite the article:
 
 To cite the package:
 ```bash
-Genetay, E., Saumard, A., Sauamrd, C., 2022. RobustClustering: A robust clustering python package. GitHub; [accessed 2022 August 31]. https://github.com/GENETAY/RobustClustering_project.
-}
+Genetay, E., Saumard, A., Sauamrd, C., 2022. RobustClustering: A robust clustering python package.
+GitHub. [accessed 2022 August 31]. https://github.com/GENETAY/RobustClustering_project.
 ```
