@@ -55,7 +55,7 @@ We edited existing codes or created our own programs to be able to give initial 
 
 We recoded TClust because we did not find any python package to do it when we started our work in 2019. Thing may have change by now.
 
-You fill also find in `RobustClustering_project/RobustClustering/utils.py` a lot of auxiliary functions or metrics that can help you to compare the method. We can mention RMSE (or a more resilient version RMSE_ot), accuracy but also the functions that generate datasets like those related to the KbMOM or TClust  articles.
+You will also find in `RobustClustering_project/RobustClustering/utils.py` a lot of auxiliary functions or metrics that can help you to compare the method. We can mention RMSE (or a more resilient version RMSE_ot), accuracy but also the functions that generate datasets like those related to the KbMOM or TClust  articles.
 
 # Further info
 These files were the programs used to do the experiments of the article about K-bMOM, published by Adrien SAUMARD, Camille SAUMARD and Edouard GENETAY in 2022 in the journal CSDA (Computational statistics and data analysis), see the final published article in `RobustClustering_project/doc`.
