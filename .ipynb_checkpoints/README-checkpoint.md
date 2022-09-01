@@ -50,4 +50,24 @@ We recoded TClust because we did not find any python package to do it when we st
 You fill also find in `RobustClustering_project/RobustClustering/utils.py` a lot of auxiliary functions or metrics that can help you to compare the method. We can mention RMSE (or a more resilient version RMSE_ot), accuracy but also the functions that generate datasets like those related to the KbMOM or TClust  articles.
 
 # Further info
-These files were the programs used to do the experiments of the article about K-bMOM, submitted by Adrien SAUMARD, Camille SAUMARD and Edoaurd GENETAY in 2020 in a journal, see the final published article in `RobustClustering_project/doc`.
+These files were the programs used to do the experiments of the article about K-bMOM, published by Adrien SAUMARD, Camille SAUMARD and Edouard GENETAY in 2022 in the journal CSDA (Computational statistics and data analysis), see the final published article in `RobustClustering_project/doc`.
+
+## Citation
+To cite the article:
+```bash
+@article{brunet2022k,
+  title={K-bMOM: A robust Lloyd-type clustering algorithm based on bootstrap median-of-means},
+  author={Brunet-Saumard, Camille and Genetay, Edouard and Saumard, Adrien},
+  journal={Computational Statistics \& Data Analysis},
+  volume={167},
+  pages={107370},
+  year={2022},
+  publisher={Elsevier}
+}
+```
+
+To cite the package:
+```bash
+Genetay, E., Saumard, A., Sauamrd, C., 2022. RobustClustering: A robust clustering python package. GitHub; [accessed 2022 August 31]. https://github.com/GENETAY/RobustClustering_project.
+}
+```
