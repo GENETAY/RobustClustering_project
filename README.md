@@ -25,8 +25,12 @@ second, make an executable (not a `.exe` but a `.tar.gz`) from the package folde
 Third, the previous step has created a file named "dist" inside the folder, now you are able to install the package with the command `pip install dist/RobustClustering-x.x.x.tar.gz` executed inside the folder and where you have adapted the "x.x.x" to your own case (for your info: "x.x.x" is simply the current version of the package.).
 
 # how to use it
+
+## method 1
 If you installed the package as described above: python is now able to import it with "import Robustclustering"
 
+
+## method 2
 If you want to download the files and use it without installing it as a package with "pip instal...", it is also possible. Download the repository, set youself inside the folder you have just downloaded and import functions or classes you need in you python script or notebook.
 /!\ It is very likely that you get an error when importing RobustClustering. I solved this for me with the following lines of code executed before "import RobustClustering"
 
@@ -41,6 +45,10 @@ import RobustClustering
 ```
 
 Check out the numerous files in `RobustClustering_project/doc` and `RobustClustering_project/examples` to see how to use all functions and classes and what they do.
+
+## encountered issues and their solutions
+
+- the installation with pip was successful. But when I opened a python environment with `python` in command line, the import of KbMOM with "from RobustClustering import KbMOM" went wrong with this error: `ValueError: numpy.ndarray size changed, may indicate binary incompatibility. Expected 96 from C header, got 80 from PyObject`. To solve it i updated numpy with `pip install --upgrade numpy`. Then it worked well.
 
 # Remark
 We edited existing codes or created our own programs to be able to give initial centers in the procedures. For example, trimmed-kmeans (https://rdrr.io/cran/lowmemtkmeans/man/tkmeans.html) or SMM don't have such arguments. It did matter to be able to compare performances of algorithms.
