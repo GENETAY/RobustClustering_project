@@ -22,7 +22,7 @@ First, download this repository.
 
 second, make an executable (not a `.exe` but a `.tar.gz`) from the package folder you have just downloaded with the command `python setup.py sdist` executed inside the folder.
 
-Third, the previous step has created a file named "dist" inside the folder, now you are able to install the package with the command `pip install dist/RobustClustering-x.x.x.tar.gz` executed inside the folder and where you have adapted the "x.x.x" to your own case.
+Third, the previous step has created a file named "dist" inside the folder, now you are able to install the package with the command `pip install dist/RobustClustering-x.x.x.tar.gz` executed inside the folder and where you have adapted the "x.x.x" to your own case (for your info: "x.x.x" is simply the current version of the package.).
 
 # how to use it
 If you installed the package as described above: python is now able to import it with "import Robustclustering"
