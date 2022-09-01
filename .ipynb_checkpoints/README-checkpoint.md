@@ -5,8 +5,7 @@ Please, send me a message or an email for any questions or remark: genetay.edoua
 or on github https://github.com/GENETAY
 
 # Content
-It is a package of robust algorithms.
-One can find code and doc or examples for:
+It is a package of robust algorithms. One can find here some new python codes, doc or examples of code that are available in R of in python with some constrains that we got rid of:
 - ROBIN (initialisation procedure, see https://rdrr.io/github/brodsa/wrsk/man/ROBIN.html)
 - TClust (gaussian mixture model with trimming, EM algo, see https://cran.r-project.org/web/packages/tclust/index.html)
 - K-PDTM (robust EM algo based on trimming that computes distances between measures instead of between points, see https://arxiv.org/abs/1801.10346)
@@ -14,8 +13,9 @@ One can find code and doc or examples for:
 - SMM (student mixture model, EM algo, I edited his code: https://github.com/luiscarlosgph/t-Student-Mixture-Models/blob/master/src/smm/smm.py)
 - K-bMOM (a mix between kmeans and the estimator MOM (median-of-means))
 
-One can also find a modified version of kmeans++ that is kmeans++ and kmedians++ at the same time.
-- kmedianspp (the same as kmeans++ where remote data are less likely to be picked up than with kmeans++, no example nor doc, cf sklearn or code here for details)
+One can also find a modified version of kmeans++ (sklearn code) with slight modifications. The function kmedianspp that we coded is in the same time:
+- kmeans++, non robust initialisation of clustering algorithm
+- kmedians++, non robust initialisation of clustering algorithm but slightly more robust than kmeans++
 
 # Install
 First, download this repository.
